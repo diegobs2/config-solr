@@ -531,4 +531,7 @@
   <copyField source="brands" dest="brands_str" maxChars="256"/>
   <copyField source="styles" dest="styles_str" maxChars="256"/>
   <copyField source="tags" dest="tags_str" maxChars="256"/>
+  <copyField source="code" dest="_text_"/>
+  <copyField source="question" dest="_text_"/>
+  <copyField source="answer_nohtml" dest="_text_"/>
 </schema>
